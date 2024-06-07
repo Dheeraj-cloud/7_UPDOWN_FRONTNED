@@ -21,7 +21,7 @@ const Register = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/user/register",
+        "https://seven-updown-backend-1.onrender.com/api/user/register",
         formData
       );
       console.log(response.data); // Assuming server responds with a success message
